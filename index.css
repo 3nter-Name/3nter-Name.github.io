@@ -24,10 +24,12 @@ body {
     color: rgb(187 225 250);
     display: inline;
     flex: 1 0 auto;
+    padding: 0px 5px;
 }
 .header__tab__link{
-    padding: 5px 0;
     display: block;
     background-color: rgb(15, 76, 117);
     border-color: rgb(15, 76, 117);
+    border-radius: 5px;
+    padding: 10px 0;
 }
