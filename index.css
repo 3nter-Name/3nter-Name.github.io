@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Cookie");
+
 body {
     background-color: rgb(15 76 117);
     margin: 0;
@@ -7,15 +9,19 @@ body {
     border-bottom: 5px solid black;
     margin-top: 0;
     padding-top: 1%;
+    margin-bottom: 0;
 }
 .header__content{
     text-align: center;
 }
 .header__title{
-    font-style: italic;
     color: rgb(50 130 184);
+    font-size: 100px;
+    font-family: Cookie;
+    margin: 0;
 }
 .header__tabs{
+    margin: 0;
     padding: 0;
     display: flex;
 }
@@ -27,9 +33,19 @@ body {
     padding: 0px 5px;
 }
 .header__tab__link{
-    display: block;
-    background-color: rgb(15, 76, 117);
-    border-color: rgb(15, 76, 117);
-    border-radius: 5px;
+    color: rgb(187, 225, 250);
     padding: 10px 0;
+    text-decoration: none;
+}
+.margin-0{
+    margin: 0;
+}
+#body{
+    margin: 50%;
+}
+#footer{
+    background: rgb(27, 38, 44);
+    border-top: 5px solid black;
+    margin: 0;
+    padding-bottom: 1%;
 }
