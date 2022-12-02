@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Cookie");
 
-/* enter green 103 179 27; enter blue 31 169 255 */
+/* enter green 103 179 27; enter blue 31 169 255 offwhite rgb(240 234 214) */
 
 body {
     margin: 0;
-    background-color: #f0ead6;
+    background-color: rgb(99 99 99);
 }
 #nav{
     padding-top: 1%;
@@ -49,7 +49,7 @@ body {
     3px -3px 0 #000,
     -3px 3px 0 #000,
     3px 3px 0 #000;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid rgb(0 0 0);
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 40px;
@@ -59,7 +59,7 @@ body {
     text-align: center;
 }
 .header__title{
-    font-size: 100pt;
+    font-size: 75pt;
     font-family: Cookie;
     margin: 0;
 }
@@ -68,7 +68,7 @@ body {
     margin-bottom: 0;
 }
 .body__content{
-    background-color: lightblue;
+    background-color: rgb(240 234 214);
     margin-top: 0;
     margin: 0 0 0 5%;
 }
@@ -76,33 +76,36 @@ body {
     border-top: 0 none white;
 }
 .section{
-    border-top: 5em solid lightblue;
-    background-color: lightblue;
+    border-top: 5em solid rgb(240 234 214);
+    background-color: rgb(240 234 214);
 }
 .section__content{
-    border: 10px solid lightblue;
+    border: 10px solid rgb(240 234 214);
     min-height: 13em;
 }
 .section__title{
     color: rgb(103, 179, 27);
-    font-size: 45pt;
+    font-size: 25pt;
 }
 .section__link{
     color: inherit;
     font-size: inherit;
 }
+.section__text{
+    font-size: 15pt;
+}
 .top__spacer{
     min-height: 5rem;
-    color: rgba(0, 0, 0, 0);
-    background: linear-gradient(45deg, #f0ead6 25%, lightblue 25%);
+    color: rgb(99 99 99);
+    background: linear-gradient(45deg, rgb(99 99 99) 25%, rgb(240 234 214) 25%);
 } /*135 315 -- 45 225*/
 .bottom__spacer{
     min-height: 5rem;
-    color: rgba(0, 0, 0, 0);
-    background: linear-gradient(225deg, #f0ead6 55%, lightblue 55%);
+    color: rgb(99 99 99);
+    background: linear-gradient(225deg, rgb(99 99 99) 55%, rgb(240 234 214) 55%);
 }
 #footer{
-    border-top: 5px solid black;
+    border-top: 5px solid rgb(0 0 0);
     margin: 0;
     padding-bottom: 1%;
     background-color: rgb(32 35 37);
