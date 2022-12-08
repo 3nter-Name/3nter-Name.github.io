@@ -13,7 +13,7 @@ body {
     width: 100%;
     text-align: center;
     padding-bottom: 15px;
-    max-height: 13px;
+    height: 30px;
     border-bottom: 5px;
     border-style: solid;
     border-color: rgb(0 0 0);
@@ -25,18 +25,33 @@ body {
 }
 .nav__tabs{
     margin: 0;
-    padding: 0;
+    padding: 0 auto;
     display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    min-width: 100%;
 }
 .nav__tab{
+    min-height: 40px;
+    max-height: 40px;
+    min-width: 10em;
+    max-width: 10em;
     list-style-type: none;
     display: inline;
     flex: 1 0 auto;
-    padding: 0px 5px;
-}
-.nav__tab__link{
+    padding: 0px;
+    text-align: center;
     padding: 10px 0;
-    text-decoration: none;
+    color: rgb(223, 242, 255);
+    background-color: darkgray;
+}
+.nav__tab:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.nav__tab__text{
+    text-align: center;
+    margin: 0;
     color: inherit;
 }
 .spacer-40{
