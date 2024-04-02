@@ -20,3 +20,17 @@ would slow down the production of this website too much and most likely leave me
 I'll still make templates and if I can use them without react or nodes help, I'll do that, but I'll mainly use them
 to copy paste what I need over to a new page and just fill it in myself. If I ever move to self hosting or a different
 hosting service I will likely overhaul the site and add in vue components and so on.
+
+Most of my desisions and thoughts are on a google doc that I try to keep updating with ideas of what to add, what
+rules to follow and so on. I do actually share that in the works page for this site, plus you can find it below in links
+
+
+
+
+# __LINKS__
+
+### Webpage Design Doc
+
+<link to be added>
+
+
