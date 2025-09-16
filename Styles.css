@@ -1,0 +1,60 @@
+/* Variable Defining for ALL COLORS */
+:root {
+    --defaultBackground: lightgrey;
+    --loudAccentBackground: pink;
+    --quietAccentBackground: grey;
+    --defaultText: black;
+    --loudAccentText: Red;
+    --quietAccentText: darkgrey;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    background-color: var(--defaultBackground);
+    margin: 0;
+}
+
+/*Text stylings*/
+.title {
+    color: var(--loudAccentText);
+}
+.subtitle {
+    color: var(--quietAccentText);
+}
+.text {
+    color: var(--defaultText);
+}
+
+/*Sections, top to bottom*/
+header {
+    background-color: var(--quietAccentBackground);
+    text-align: center;
+    border-bottom: 3px solid var(--loudAccentBackground);
+}
+header .title {
+    margin-bottom: 0px;
+} 
+header hr {
+    border-color: var(--loudAccentBackground);
+    margin: 0px;
+}
+header .subtitle {
+    margin-top: .5%
+}
+
+nav button{
+    padding: 0px 5%;
+}
+
+main {
+    padding: 0 8px;
+    flex-grow: 1;
+    background-color: var(--quietAccentBackground);
+}
+
+footer {
+    display: block;
+    border-top: 1px solid var(--quietAccentBackground);
+    background-color: var(--loudAccentBackground);
+}
