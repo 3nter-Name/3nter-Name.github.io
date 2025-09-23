@@ -6,6 +6,7 @@
     --defaultText: black;
     --loudAccentText: Red;
     --quietAccentText: darkgrey;
+    --defaultTextSize: 18px;
 }
 body {
     display: flex;
@@ -24,6 +25,7 @@ body {
 }
 .text {
     color: var(--defaultText);
+    font-size: var(--defaultTextSize);
 }
 
 /*Sections, top to bottom*/
